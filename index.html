@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Web Page</title>
+<link href="css/main.css" rel="stylesheet">
+</head>
+<!-- students must convert divs to semantic tags -->
+<body>
+	<div id="container">
+        
+        <div id="header-con">
+            <div id="main-header" class="grid-con">
+                <div id="header-box1" class="box-color">
+                    <h1 class="hidden">JPhotographer</h1>
+                <img src="images/logo_jphotography_gray-2.svg" alt="JPhotography Logo">
+                </div>
+
+                <div id="main-nav" class="box-color">
+                    <h2 class="hidden">Navigator</h2>
+                    <ul>
+                        <li>
+                            <a class="active" href="index.html"> Home </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#"> Landscape </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#"> Portrait </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#"> Product </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#"> About </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div id="header-box2" class="box-color2">
+                    <h3>Sign Up</h3>
+
+
+
+                </div>
+            </div>
+        </div> 
+
+        <main>
+            <div class="grid-con" id="hero">
+                
+
+                <div id="hero-text" class="box-color">
+                    <h2>Hi. I am JohnDas!</h2>
+                    <br>
+                    <p>As a travel photographer, I am always on the hunt for unique and breathtaking landscapes that evoke a sense of wonder and awe in my viewers. I strive to capture the essence of each destination I visit, whether it be the vibrant colors of a bustling city or the serene stillness of a remote wilderness.</p>
+                    <br>
+                    <p>With my camera in hand, I am able to freeze moments in time and allow others to experience the beauty of the world through my lens. My passion for capturing the world's beauty has taken me to countless destinations, and I am always eager to discover new places and share my experiences with others through my photography.</p>
+
+                </div>
+                <img src="images/main_male.jpg" alt="image" id="hero-image">
+            </div>  
+
+            <div class="grid-con" id="products">
+                <h2>Latest Photos</h2>
+                <div class="product-box" id="product1">
+                    <img src="images/girl_in_garden.jpg" alt="image">
+                    <h3>Girl in the Garden</h3>
+                    <p>Client: Princessa</p>
+                    <br>
+                    <p>Location: Indonesia</p>
+
+                </div>
+                <div class="product-box" id="product2">
+                    <img src="images/grimace.jpg" alt="image">
+                    <h3>Girl in the Garden</h3>
+                    <p>Client: Mara Hurt</p>
+                    <br>
+                    <p>Location: Singapore</p>
+
+
+                </div>
+                <div class="product-box" id="product3">
+                    <img src="images/photographer.jpg" alt="image">
+                    <h3>Girl in the Garden</h3>
+                    <p>Client: Reill Wana</p>
+                    <br>
+                    <p>Location: Brazil</p>
+
+                </div>
+            </div>
+
+            <h2 id="about-title">Assistant Photographer</h2>
+            <div id="about-con">
+                <div class="grid-con" id="about">
+                    <div id="about-text" class="box-color">
+                        <h2>Hi. I am Albert!</h2>
+                    <br>
+                    <p>I am a detail-oriented and organized individual, ensuring that all equipment and gear are in top condition and ready to use at any time.</p>
+                    <br> 
+                    <p>I have experience in post-processing and editing, which allows me to contribute to the final images produced. I am also skilled in communicating with locals and vendors, helping to make travel arrangements and overcoming any language barriers. </p> 
+                    <br>
+                    <p>My passion for photography and travel continues to grow, and I am excited about the opportunities that lie ahead in this field.</p>
+                    </div>
+                    <img src="images/man_cigar.jpg" alt="image" id="about-image">
+                </div>
+            </div>
+            
+            <div class="grid-con" id="contact">
+                <div id="contact-text" class="box-color">
+                        <h2>JPhotography</h2>
+                        <p> 123 Kipps Lane</p>
+                        <br>
+                        <p>London, Ontario</p>
+                        <br><br><br>
+                        <p>Contact: (519) 702-1234</p>
+                        <br>
+                        <p>Email: hello@jphotography.com</p>
+                </div>
+
+                <div id="contact-form" class="box-color">
+                    <h2 class="hidden"> Contact Us Form</h2>
+                    <form action="email.php" method="POST" enctype="text/plain">
+                        <input name="fullName" type="text" placeholder="First and Last Name">
+                        <input name="contactInfo" type="text" required="" placeholder="Phone number or Email">
+                        <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                        <input name="submit" type="submit" value="Send">
+                    </form>
+
+                </div>
+            </div> 
+        </main>
+
+        <div id="footer-con">
+            <div class="grid-con" id="footer">
+                <div id="footer-logo" class="box-color">
+                    <img src="images/logo_jphotography_gray-2.svg" alt="JPhotography Logo">
+                </div>
+
+                <div id="footer-nav" class="box-color">
+                    <ul>
+                        <li>
+                            <a class="active" href="index.html"> Home </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#"> Landscape </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#"> Portrait </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#"> Product </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#"> About </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="footer-newsletter1" class="box-color">
+                    <input name="fullName" type="text" placeholder="Email address">
+                </div>
+                <div id="footer-newsletter2" class="box-color">
+                    <h3 id="h3-submit">Submit</h3>
+                </div>
+                <div id="footer-social" class="box-color">
+                    <img id="social" src="images/social_fb.png" alt="Facebook">
+                    <img src="images/social_insta.png" alt="Instagram">
+                    <img src="images/social_twit.png" alt="Twitter">
+                </div>
+            </div>
+        </div>
+
+    </div> 
+</body>
+</html>

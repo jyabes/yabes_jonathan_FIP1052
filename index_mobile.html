@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Web Page</title>
+<link href="css/main-mobile.css" rel="stylesheet" type="text/css">
+</head>
+<!-- students must convert divs to semantic tags -->
+<body>
+	<div id="container">
+        
+        <div id="header-con">
+            <div id="main-header" class="grid-con">
+                <h1 class="hidden">JPhotographer</h1>
+                <img src="images/logo_jphotography_gray-2.svg" alt="image" id="header-logo">
+                 <div id="mobile-nav">
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                 </div>
+            </div>    
+        </div> 
+
+        <main>
+            <div id="hero-con">
+                <img src="images/mobile_hero.jpg" alt="Hero">
+                <div class="grid-con">
+                    <div id="hero-text" class="box-color">
+                    </div>
+                </div>
+            </div>
+
+            <div id="image-slider-con">
+                <h2>Latest Photos</h2>
+                <img src="images/mobile_girl_in_garden.jpg" alt="Girl in the Garden">
+                <h3>Girl in the Garden</h3>
+                <p>Client: Princessa</p>
+                <br>
+                <p>Location: Indonesia</p>
+
+
+                <!-- ascii symbols for <> -->
+                <span id="mobile-slider-left">&#60;</span>
+                <span id="mobile-slider-right">&#62;</span>
+            </div>
+
+            <div id="about-us-con">
+                <h2>About Us</h2>   
+                    <div id="about-us-text-con">     
+                        <div class="grid-con">
+                            <div id="about-us-text" class="box-color">
+                                <p>As a travel photographer, I am always on the hunt for unique and breathtaking landscapes that evoke a sense of wonder and awe in my viewers. I strive to capture the essence of each destination I visit, whether it be the vibrant colors of a bustling city or the serene stillness of a remote wilderness.
+
+                                    With my camera in hand, I am able to freeze moments in time and allow others to experience the beauty of the world through my lens. My passion for capturing the world's beauty has taken me to countless destinations, and I am always eager to discover new places and share my experiences with others through my photography.</p>
+                            </div>
+                        </div>      
+                    </div>  
+                    <div class="grid-con" id="about-us-photos">
+                        <img src="images/mobile_the_wedding.jpg" alt="image" class="about-us-photo">
+                        <img src="images/mobile_prenuptial.jpg" alt="image" class="about-us-photo">
+                        <img src="images/mobile_tourist.jpg" alt="image" class="about-us-photo">
+                        <img src="images/mobile_pasyal_tayo.jpg" alt="image" class="about-us-photo">
+                    </div>         
+            </div>
+
+            <div id="contact-us-con">
+                <div class="grid-con">
+                    <div id="contact-text" class="box-color">
+                        <h2>JPhotography</h2>
+                        <p>123 Kipps Lane</p>
+                        <p>London, Ontario, Canada</p>
+                        <br>
+                        <p>Contact: (519) 702-1234</p>
+                        <p>Email: hello@jphotography.com</p>
+                    </div>
+                    <div id="contact-form" class="box-color">
+                        <form action="email.php" method="POST" enctype="text/plain">
+                            <input name="fullName" type="text" placeholder="First and Last Name">
+                            <input name="contactInfo" type="text" required="" placeholder="Phone number or Email">
+                            <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                            <input name="submit" type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div id="footer-con">
+            <div class="grid-con">
+                <div id="footer-box">
+                    <img src="images/logo_jphotography_gray-2.svg" alt="logo">
+                </div>
+                <div id="footer-newsletter">
+                    <h2 class="hidden">Newsletter</h2>
+                    <form action="email.php" method="POST" enctype="text/plain"></form>
+                    <input name="emailAddress" type="text" placeholder="Email Address">
+                </div>
+                <div id="footer-newsletter2">
+                    <h3 id="h3-submit">Submit</h3>
+                </div>
+                <div id="footer-social" class="box-color">
+                    <img src="images/social_fb.png" alt="Facebook" style="width:50px">
+                    <img src="images/social_insta.png" alt="Instagram" style="width:50px">
+                    <img src="images/social_twit.png" alt="Twitter" style="width:50px">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
